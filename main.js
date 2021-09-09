@@ -70,7 +70,7 @@ export default class Slide {
         btn.setAttribute('class', 'pager__btn');
         btn.style.backgroundColor = slideItemAll[j].dataset.color;
         if (slideItemAll[j].dataset.src !== undefined) {
-          btn.style.backgroundImage = 'url(/lineup/toiletroom/s/inaxtoiletselection/assets/pic/'+slideItemAll[j].dataset.src+')';
+          btn.style.backgroundImage = 'url(/assets/img/'+slideItemAll[j].dataset.src+')';
         }
         item.appendChild(btn);
       }
